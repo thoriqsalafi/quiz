@@ -33,7 +33,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/question1"
+            android:src ="@drawable/buttonbackground"
             android:id="@+id/imageView"
             android:layout_marginBottom="20dp"
             android:adjustViewBounds="true"
@@ -48,7 +48,7 @@
             android:layout_centerHorizontal="true"
             android:textColor="#141CFF"
             android:textSize="30sp"
-            android:background="@drawable/buttonshape"
+            android:background="@drawable/buttonbackyes"
             android:shadowColor="#A8A8A8"
             android:shadowDx="0"
             android:shadowDy="0"
