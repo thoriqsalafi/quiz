@@ -15,8 +15,8 @@ public class questionFour extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_four);
 
-        noButton = (Button)findViewById(R.id.noButton);
-        noButton.setOnClickListener(new View.OnClickListener() {
+        yesButton = (Button)findViewById(R.id.yesButton);
+        yesButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(questionFour.this, questionFive.class);
                 startActivity(i);

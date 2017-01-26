@@ -20,20 +20,20 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="4?"
+            android:text="Apakah anda suka nangis?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
             android:layout_marginTop = "10dp"
             android:layout_marginBottom="10dp"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textColor="#000000"
             />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/buttonbackground"
+            android:src="@drawable/cry"
             android:id="@+id/imageView"
             android:layout_marginBottom="20dp"
             android:adjustViewBounds="true"
