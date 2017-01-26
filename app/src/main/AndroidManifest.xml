@@ -21,7 +21,14 @@
         <activity android:name=".questionOne" />
         <activity android:name=".questionTwo" />
         <activity android:name=".questionThree" />
-        <activity android:name=".questionFour"></activity>
+        <activity android:name=".questionFour" />
+        <activity android:name=".questionFive" />
+        <activity android:name=".questionSix" />
+        <activity android:name=".questionSeven" />
+        <activity android:name=".questionEight" />
+        <activity android:name=".questionNine" />
+        <activity android:name=".questionTen" />
+        <activity android:name=".showResult"></activity>
     </application>
 
 </manifest>

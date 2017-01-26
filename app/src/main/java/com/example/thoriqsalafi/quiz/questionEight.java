@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class questionThree extends AppCompatActivity {
+public class questionEight extends AppCompatActivity {
 
-    Button yesButton, noButton;
+    Button noButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question_three);
+        setContentView(R.layout.activity_question_eight);
 
         noButton = (Button)findViewById(R.id.noButton);
         noButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(questionThree.this, questionFour.class);
+                Intent i = new Intent(questionEight.this, questionNine.class);
                 startActivity(i);
             }
         });
