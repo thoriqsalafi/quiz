@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">quiz</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_question_three">questionThree</string>
+    <string name="title_activity_question_four">questionFour</string>
+    <string name="title_activity_question_five">questionFive</string>
+    <string name="title_activity_question_six">questionSix</string>
+    <string name="title_activity_question_seven">questionSeven</string>
+    <string name="title_activity_question_eight">questionEight</string>
+    <string name="title_activity_question_nine">questionNine</string>
+    <string name="title_activity_question_ten">questionTen</string>
+    <string name="title_activity_show_result">showResult</string>
 </resources>

@@ -18,7 +18,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".questionOne"></activity>
+        <activity android:name=".questionOne" />
+        <activity android:name=".questionTwo" />
+        <activity
+            android:name=".questionThree"
+            android:label="@string/title_activity_question_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionFour"
+            android:label="@string/title_activity_question_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionFive"
+            android:label="@string/title_activity_question_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionSix"
+            android:label="@string/title_activity_question_six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionSeven"
+            android:label="@string/title_activity_question_seven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionEight"
+            android:label="@string/title_activity_question_eight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionNine"
+            android:label="@string/title_activity_question_nine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questionTen"
+            android:label="@string/title_activity_question_ten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showResult"
+            android:label="@string/title_activity_show_result"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
