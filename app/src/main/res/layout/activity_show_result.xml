@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_show_result"
     android:layout_width="match_parent"
@@ -10,25 +10,68 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.thoriqsalafi.quiz.showResult">
 
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
     <TextView
-        android:text="2?"
+        android:text="I know you are RULI AULIA. Happy Birthday!!, open this present:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        android:layout_marginTop = "10dp"
+        android:layout_marginTop = "40dp"
         android:layout_marginBottom="10dp"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textColor="#000000"
         />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:id="@+id/textView2"
+            android:layout_marginTop = "10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#0000A0"
+            android:text="@string/present"
+            android:gravity="center"
+            />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/buttonbackground"
+        android:src="@drawable/ruli"
         android:id="@+id/imageView"
         android:layout_marginBottom="20dp"
         android:adjustViewBounds="true"
         android:layout_centerInParent="true"
         />
 
-</RelativeLayout>
+        <Button
+            android:text="Play Again?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yesButton"
+            android:layout_centerHorizontal="true"
+            android:textColor="#141CFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonbackyes"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginBottom="5dp"
+            />
+
+
+    </LinearLayout>
+
+    </LinearLayout>

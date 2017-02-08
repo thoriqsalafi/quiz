@@ -21,7 +21,7 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="6?"
+            android:text="Apakah anda suka makan buah naga belepotan?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
@@ -34,7 +34,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/buttonbackground"
+            android:src="@drawable/dragon"
             android:id="@+id/imageView"
             android:layout_marginBottom="20dp"
             android:adjustViewBounds="true"

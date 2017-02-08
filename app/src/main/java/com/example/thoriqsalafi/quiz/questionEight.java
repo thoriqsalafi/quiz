@@ -8,15 +8,15 @@ import android.widget.Button;
 
 public class questionEight extends AppCompatActivity {
 
-    Button noButton;
+    Button yesButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_eight);
 
-        noButton = (Button)findViewById(R.id.noButton);
-        noButton.setOnClickListener(new View.OnClickListener() {
+        yesButton = (Button)findViewById(R.id.yesButton);
+        yesButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(questionEight.this, questionNine.class);
                 startActivity(i);

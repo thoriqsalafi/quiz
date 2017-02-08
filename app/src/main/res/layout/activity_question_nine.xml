@@ -20,7 +20,7 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="9?"
+            android:text="Apakah anda akan berulang tahun?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
@@ -33,7 +33,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/buttonbackground"
+            android:src="@drawable/birthday"
             android:id="@+id/imageView"
             android:layout_marginBottom="20dp"
             android:adjustViewBounds="true"

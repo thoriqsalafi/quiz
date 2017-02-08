@@ -19,7 +19,7 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="Apakah anda jarang marah?"
+            android:text="Apakah anda jarang ngambek?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
